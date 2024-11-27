@@ -1,0 +1,14 @@
+{
+  "name": "portfoliosite",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Miki Safronov-Yamamoto",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080"
+  },
+  "author": "Miki Safronov-Yamamoto",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
