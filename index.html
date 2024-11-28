@@ -3,24 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Miki Safronov-Yamamoto</title>
+    <title>Miki Safronov-Yamamoto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Miki Safronov-Yamamoto</h1>
-        <p>Innovator | Engineer | Entrepreneur</p>
-        <nav>
-            <a href="about.html">About</a>
-            <a href="work.html">Work</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Miki Safronov-Yamamoto</h1>
+            <p>Innovator | Engineer | Entrepreneur</p>
+            <nav class="hero-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="work.html">Work</a>
+                <a href="projects.html">Projects</a>
+                <a href="writing.html">Writing</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            
+        </div>
     </header>
-    <section>
-        <h2>Welcome</h2>
-        <p>Explore my journey through innovation and entrepreneurship!</p>
+
+    <!-- Work Section -->
+    <section id="work" class="section">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>IvyHacks</h3>
+                    <p><strong>Co-Founder & CEO</strong></p>
+                    <p>Developed viral marketing campaigns, guided students, and led business strategy.</p>
+                </div>
+                <div class="card">
+                    <h3>Robototes</h3>
+                    <p><strong>Social Media Manager</strong></p>
+                    <p>Created viral videos reaching over 20 million views.</p>
+                </div>
+                <div class="card">
+                    <h3>Microsoft</h3>
+                    <p><strong>High School Intern</strong></p>
+                    <p>Presented analysis on Xbox and Surface data during weekly exhibitions.</p>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section light-bg">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>IvyHacks</h3>
+                    <p>A college guidance platform supporting thousands of students globally.</p>
+                    <a href="https://www.ivyhackscollege.com" target="_blank" class="button">View Project</a>
+                </div>
+                <div class="card">
+                    <h3>Robototes</h3>
+                    <p>Managed social media strategies and viral robotics campaigns.</p>
+                </div>
+                <div class="card">
+                    <h3>Microsoft Internship</h3>
+                    <p>Developed and presented high-impact technical projects during mentorship program.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Writing Section-->
+    <section id="writing" class="section">
+        <div class="container">
+            <h2>Writing</h2>
+            <div class="writing-preview">
+                <img src="assets/images/singularity-cover.jpg" alt="Singularity Cover" class="writing-cover">
+                <div class="writing-content">
+                    <h3>The Singularity: What It Is, My Predictions, and Why It’s Inevitable</h3>
+                    <p>
+                        Explore my thoughts on the concept of singularity, transhumanism, and why this inevitable transformation is not to be feared.
+                    </p>
+                    <a href="writing.html" class="button">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <p>© 2024 Miki Safronov-Yamamoto</p>
     </footer>
