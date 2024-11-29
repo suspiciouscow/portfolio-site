@@ -4,100 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <title>Miki Safronov-Yamamoto</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Introduction Section -->
-    <header class="intro">
-        <div class="intro-content">
-            <img src="assets/images/your-photo.jpg" alt="Miki Safronov-Yamamoto" class="profile-photo">
-            <h1>Miki Safronov-Yamamoto</h1>
-            <p>Innovator | Engineer | Entrepreneur</p>
-            <p>
-                Hi! I'm Miki, a passionate technologist blending arts, technology, and entrepreneurship. 
-                With a background in building innovative projects, I love solving complex problems and 
-                creating meaningful impact. Welcome to my portfolio!
-            </p>
-        </div>
-        <nav class="nav-links">
-            <a href="index.html">Home</a>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-content">
+            <a href="index.html" class="active">Home</a>
             <a href="about.html">About</a>
             <a href="work.html">Work</a>
             <a href="projects.html">Projects</a>
             <a href="writing.html">Writing</a>
             <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-   <!-- Work Section -->
-<section id="work" class="section">
-    <div class="container">
-        <h2>Work Experience</h2>
-        <div class="work-list">
-            <div class="work-item">
-                <div class="work-logo">
-                    <img src="assets/logos/ivyhacks-logo.png" alt="IvyHacks Logo" class="company-logo">
-                </div>
-                <div class="work-info">
-                    <h3>IvyHacks</h3>
-                    <span class="work-role">Co-Founder & CEO</span>
-                    <div class="work-tags">
-                        <span class="work-tag">Leadership</span>
-                        <span class="work-tag">Strategy</span>
-                    </div>
-                </div>
-                <div class="work-date">2023-24</div>
-            </div>
-
-            <div class="work-item">
-                <div class="work-logo">
-                    <img src="assets/logos/robototes-logo.png" alt="Robototes Logo" class="company-logo">
-                </div>
-                <div class="work-info">
-                    <h3>Robototes</h3>
-                    <span class="work-role">Social Media Manager</span>
-                    <div class="work-tags">
-                        <span class="work-tag">Marketing</span>
-                        <span class="work-tag">Content</span>
-                    </div>
-                </div>
-                <div class="work-date">2023</div>
-            </div>
-
-            <div class="work-item">
-                <div class="work-logo">
-                    <img src="assets/logos/microsoft-logo.png" alt="Microsoft Logo" class="company-logo">
-                </div>
-                <div class="work-info">
-                    <h3>Microsoft</h3>
-                    <span class="work-role">Product Design Intern</span>
-                    <div class="work-tags">
-                        <span class="work-tag">Product</span>
-                        <span class="work-tag">Hardware</span>
-                    </div>
-                </div>
-                <div class="work-date">2022-23</div>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <img src="assets/images/your-photo.jpg" alt="Miki Safronov-Yamamoto" class="profile-photo">
+            <div class="intro-text">
+                <h1>Miki Safronov-Yamamoto</h1>
+                <p class="subtitle">Innovator | Engineer | Entrepreneur</p>
+                <p class="hero-description">
+                    Hi! I'm Miki, a passionate technologist blending arts, technology, and entrepreneurship. 
+                    With a background in building innovative projects, I love solving complex problems and 
+                    creating meaningful impact. Welcome to my portfolio!
+                </p>
             </div>
         </div>
-    </div>
-</section>
+    </header>
+
+    <!-- Work Section -->
+    <section id="work" class="section">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="work-list">
+                <div class="work-item">
+                    <div class="work-logo">
+                        <img src="assets/logos/ivyhacks-logo.png" alt="IvyHacks Logo" class="company-logo">
+                    </div>
+                    <div class="work-info">
+                        <h3>IvyHacks</h3>
+                        <span class="work-role">Co-Founder & CEO</span>
+                        <div class="work-tags">
+                            <span class="work-tag">Leadership</span>
+                            <span class="work-tag">Strategy</span>
+                        </div>
+                    </div>
+                    <div class="work-date">2023-24</div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-logo">
+                        <img src="assets/logos/robototes-logo.png" alt="Robototes Logo" class="company-logo">
+                    </div>
+                    <div class="work-info">
+                        <h3>Robototes</h3>
+                        <span class="work-role">Social Media Manager</span>
+                        <div class="work-tags">
+                            <span class="work-tag">Marketing</span>
+                            <span class="work-tag">Content</span>
+                        </div>
+                    </div>
+                    <div class="work-date">2023</div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-logo">
+                        <img src="assets/logos/microsoft-logo.png" alt="Microsoft Logo" class="company-logo">
+                    </div>
+                    <div class="work-info">
+                        <h3>Microsoft</h3>
+                        <span class="work-role">Product Design Intern</span>
+                        <div class="work-tags">
+                            <span class="work-tag">Product</span>
+                            <span class="work-tag">Hardware</span>
+                        </div>
+                    </div>
+                    <div class="work-date">2022-23</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section light-bg">
+    <section id="projects" class="section">
         <div class="container">
             <h2>Projects</h2>
             <div class="card-grid">
-                <div class="card">
+                <div class="project-card">
                     <h3>IvyHacks</h3>
                     <p>A college guidance platform supporting thousands of students globally.</p>
                     <a href="https://www.ivyhackscollege.com" target="_blank" class="button">View Website</a>
                 </div>
-                <div class="card">
+                <div class="project-card">
                     <h3>Robototes</h3>
                     <p>Managed social media strategies and viral robotics campaigns.</p>
                 </div>
-                <div class="card">
+                <div class="project-card">
                     <h3>Microsoft Internship</h3>
                     <p>Developed and presented high-impact technical projects during mentorship program.</p>
                 </div>

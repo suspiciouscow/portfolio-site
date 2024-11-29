@@ -4,32 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Miki Safronov-Yamamoto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Hero Section for About Page -->
-    <header class="hero">
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-content">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="work.html">Work</a>
+            <a href="projects.html">Projects</a>
+            <a href="writing.html">Writing</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
         <div class="hero-content">
-            <h1>About Me</h1>
-            <p>Learn more about my journey and interests.</p>
-            <nav class="hero-nav">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="work.html">Work</a>
-                <a href="projects.html">Projects</a>
-                <a href="writing.html">Writing</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+            <div class="intro-text">
+                <h1>About Me</h1>
+                <p class="subtitle">USC Student & Tech Entrepreneur</p>
+                <p class="hero-description">
+                    Hi! I'm Miki, blending arts, technology, and entrepreneurship to create meaningful impact.
+                </p>
+            </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section class="section">
-        <h2>About Me</h2>
-        <p>
-            Hi! I'm Miki, a USC student passionate about arts, technology, and business innovation.
-            I co-founded IvyHacks, managed viral robotics campaigns, and enjoy building creative projects in tech and beyond.
-        </p>
+    <!-- About Grid -->
+    <section class="about-grid">
+        <div class="about-card">
+            <h2>Background</h2>
+            <p>A passionate technologist with experience in building innovative projects, 
+               from co-founding IvyHacks to managing viral robotics campaigns.</p>
+        </div>
+
+        <div class="about-card skills-card">
+            <h2>Core Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <span>Full Stack Development</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <span>Product Design</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Social Media Marketing</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Entrepreneurship</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-card languages-card">
+            <h2>Languages</h2>
+            <div class="language-grid">
+                <div class="language-item">
+                    <span class="language-name">Japanese</span>
+                    <span class="proficiency native">Native</span>
+                </div>
+                <div class="language-item">
+                    <span class="language-name">Russian</span>
+                    <span class="proficiency native">Native</span>
+                </div>
+                <div class="language-item">
+                    <span class="language-name">English</span>
+                    <span class="proficiency native">Native</span>
+                </div>
+                <div class="language-item">
+                    <span class="language-name">Spanish</span>
+                    <span class="proficiency beginner">Beginner</span>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
