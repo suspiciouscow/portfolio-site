@@ -515,7 +515,10 @@ body {
     background: rgba(74, 144, 226, 0.1);
     color: #4a90e2;
 }
-
+.advanced {
+    background: rgba(74, 144, 226, 0.1);
+    color: hsl(354, 86%, 60%);
+}
 .beginner {
     background: rgba(72, 187, 120, 0.1);
     color: #48bb78;
