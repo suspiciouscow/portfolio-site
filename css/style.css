@@ -2,10 +2,10 @@
 :root {
     --primary: #2D3250;    /* Deep navy */
     --secondary: #7077A1;  /* Muted purple-blue */
-    --accent: #F6B17A;     /* Warm peach */
+    --accent: #7077A1;     /* Changed from peach to match secondary */
     --background: #F7F7F9; /* Off-white */
     --text: #2D3250;       /* Deep navy for text */
-    --light-accent: #F6B17A20; /* Transparent peach */
+    --light-accent: #7077A120; /* Transparent purple-blue */
     --gray-100: #F7F7F9;
     --gray-200: #E9E9EC;
     --gray-300: #D1D1D6;
@@ -825,4 +825,38 @@ footer {
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+/* Writing list styles */
+.writing-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.writing-item {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--gray-200);
+}
+
+.writing-item h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.writing-item h3 a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.writing-item h3 a:hover {
+    color: var(--accent);
+}
+
+.writing-item p {
+    margin: 0;
+    color: var(--gray-500);
 }
