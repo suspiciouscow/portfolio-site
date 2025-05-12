@@ -860,3 +860,24 @@ footer {
     margin: 0;
     color: var(--gray-500);
 }
+
+/* Add these styles at the end of your CSS file */
+.pitch-deck-container {
+    margin: 2rem 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pitch-deck-container iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .pitch-deck-container {
+        margin: 1rem 0;
+    }
+}
